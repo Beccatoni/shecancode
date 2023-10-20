@@ -1,0 +1,47 @@
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    padding: 70px 0;
+}
+
+.first-part,
+.second-part,
+.third-part {
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.second-part .blogs div {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 15px;
+}
+
+.second-part .blogs:hover {
+    background-color: rgb(194, 194, 194);
+}
+
+.second-part .blogs div div {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 10px;
+}
+
+.second-part .blogs div div h3 {
+    font-weight: 400;
+}
+
+.second-part .blogs  div img {
+    width: 15%;
+    height: 15%;
+}

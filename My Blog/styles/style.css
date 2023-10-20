@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: rgb(111, 156, 190);
+    padding: 20px 0px 40px 0px;
+    width: 100%;
+}
+
+/*   Navigation styles *********** */
+h1 {
+    color:black;
+}
+
+#header{
+    text-align: center;
+}
+
+nav {
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: navajowhite;
+    color: black;
+    padding: 10px;
+    margin: 0 20px;
+    font-size: 150%;
+}
+
+/* FOOD LIST SECTION */
+#food-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#list-items {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    width: 20%;
+    margin-top: 25px ;
+}
+
+.card h2 {
+    margin: 15px 0 25px 0;
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+/* Pagination (Part of the food section) */
+
+.pagination {
+    display: flex;
+    flex-direction: row; /*optional*/
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.pagination button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+}
+
+.pagination button:hover {
+    color: aquamarine;
+    background-color: black;
+}
+
+.pagination svg:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+/* ABOUT US SECTION */
+#about-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px;
+}
+
+.about-description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-description p {
+    text-align: center;
+}
+
+#about-section img {
+    margin: 50px 0px 50px 0px;
+}
+
+.about-description i {
+    margin: 20px 0px 20px 0px;
+}
+
