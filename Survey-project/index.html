@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <h2>Survey form for shecancode almni</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima possimus ad magnam harum 
+        vel doloribus dignissimos asperiores sequi odio molestiae? Aut soluta voluptatum nam 
+        consectetur, voluptatibus autem commodi modi porro.
+    </p>
+    <form action="./js/server.js">
+        <label for="password">Password</label>
+        <input type="password" minlength="8" name="password"  placeholder="Your password" id="password"/>
+        <br>
+        <input type="text" name="firstname" id="firstname" placeholder="First name"/>
+        <br>
+        <input type="email" name="password" id="password" placeholder="Your email address"/>
+        <br>
+        <label for="female">
+            <input  checked type="radio" name="gender" id="female"/> 
+            Female
+        </label>
+        <br>
+        <label for="male">
+            <input type="radio" name="gender" id="male"/>
+             Male
+        </label>
+        <br>
+        <label for="other">
+            <input type="radio" name="gender" id="other"/>
+             Other 
+        </label>
+        <input type="submit" value="SUBMIT YOUR RESPONSE">
+        <button type="resetr" >RESET</button>
+    </form>
+
+</body>
+</html>

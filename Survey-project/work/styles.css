@@ -1,0 +1,155 @@
+  body {
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(./images/survey-form-background.jpeg);
+     background-size: cover;
+     width: 100%;
+     font-family: Arial, sans-serif;
+     font-size: 16px;
+     font-weight: lighter;
+     line-height: 1.4;
+     color: whitesmoke;
+     display: block;
+     margin: 8px;
+ }
+ .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  
+ }
+ #title {
+  font-size: 2rem;
+  margin: 20px 0px 10px 0px;
+}
+#description {
+  font-size: 1.2rem;
+  margin: 0px;
+  font-style: italic;
+  padding: 0px 0px 15px 0px;
+}
+#title, #description {
+  padding: 0 1.5em 0 1.5em;
+  text-align: center;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(2, 2, 75);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 40px;
+  height: 170vh;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+
+.form-grp {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5em 0 1.5em;
+  opacity: 0.8;
+}
+.form-grp label {
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+.form-grp input[type="text"],
+.form-grp input[type="email"],
+.form-grp input[type="number"],
+.form-grp select {
+  padding: 10px;
+  border: 1px solid rgb(247, 245, 245);
+  border-radius: 5px;
+  width: 96%;
+  margin-bottom: 10px;
+}
+.form-grp input[type="text"]::placeholder,
+.form-grp input[type="email"]::placeholder,
+.form-grp input[type="number"]::placeholder {
+  color: hsl(0, 2%, 39%);
+}
+.form-grp select {
+  width: 100%;
+}
+#dropdown {
+  padding: 10px;
+}
+
+#dropdown option:first-child {
+  color:hsl(0, 2%, 39%);
+}
+/* Radio button styles */
+.radio-button {
+  margin-bottom: 20px;
+  padding: 1.5em 1.5em 0 1.5em;
+}
+
+.radio-button p {
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.radio-button label {
+  display: block;
+  margin-bottom: 5px;
+}
+/* Checkboxes styles */
+.checkboxes {
+  margin-bottom: 20px;
+  padding: 1.5em 1.5em 0 1.5em;
+}
+
+.checkboxes p {
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.checkboxes label {
+  display: block;
+  margin-bottom: 5px;
+}
+/* Text area styles */
+.text-area {
+  margin-bottom: 20px;
+  padding: 1.5em 1.5em 0 1.5em;
+  
+}
+
+.text-area textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 95%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.text-area p {
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+/* Submit button styles */
+
+#submit{
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #37af65;
+    min-width: 300px;
+    color: #f3f3f3;
+    border-radius: 2px;
+    border: 0; 
+  }
+
+
+#submit:hover {
+  background-color:#f3f3f3;
+  color: black;
+}
+ 
+  
